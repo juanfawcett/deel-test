@@ -46,6 +46,7 @@ It is asynchronous, because:
 ## List the steps needed to migrate a Class to Function Component.
 1. Remove the class keyword and the extends React.Component part and define it as a function or even as an arrow function. Remember use `props` argument or use object destructuring.
 
+from
 ```
     class MyComponent extends React.Component {
 ```
