@@ -38,6 +38,7 @@ The await/async option does not have implicit try/catch blocks as the Promises, 
 
 
 ## How many arguments does setState take and why is it async.
+`setState` take 2 arguments: the new state object and the second one is a callback function to excute when state updated take place.
 It is asynchronous, because:
 1. There may be updates from different sources at the same time
 2. Calculations can be heavy in the setState
